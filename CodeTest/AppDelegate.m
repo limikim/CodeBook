@@ -7,7 +7,7 @@
 //
 
 #import "AppDelegate.h"
-#import "TimeZoneTest.h"
+#import "DateTest.h"
 
 @implementation AppDelegate
 
@@ -16,7 +16,9 @@
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
     
-    [TimeZoneTest test];
+    //[DateTest timeZone];
+    [DateTest dateCreate];
+    
     // Override point for customization after application launch.
     return YES;
 }

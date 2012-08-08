@@ -6,10 +6,10 @@
 //  Copyright (c) 2012년 __MyCompanyName__. All rights reserved.
 //
 
-#import "TimeZoneTest.h"
+#import "DateTest.h"
 
-@implementation TimeZoneTest
-+ (void) test
+@implementation DateTest
++ (void)timeZone
 {
     // GMT 현재 시간이 나온다.
     NSDate *dateNow = [NSDate date];
@@ -24,5 +24,22 @@
     unsigned unitFlags = NSYearCalendarUnit | NSMonthCalendarUnit |  NSDayCalendarUnit | NSHourCalendarUnit | NSMinuteCalendarUnit ;
     NSDateComponents *cmptForCal = [calNow components:unitFlags fromDate:dateNow];
     NSLog(@"dateCompt From calendar : %@" , cmptForCal);
+}
+
++ (void)dateCreate
+{
+    // 임의의 date 생성한다.
+    NSDate *tDate = [NSDate dateWithTimeIntervalSinceReferenceDate:1];
+    NSLog(@"date : %@", tDate);
+    
+    NSCalendar *tCal = [NSCalendar currentCalendar];
+    NSLog(@"calendar timezone: %@", [[tCal timeZone]name] );
+    
+    NSDateComponents *tDateCmpt = [tCal components:NSYearCalendarUnit|NSMonthCalendarUnit|NSDayCalendarUnit|NSHourCalendarUnit|NSMinuteCalendarUnit|NSSecondCalendarUnit fromDate:tDate];
+    
+    NSLog(@"datecompt : %@", tDateCmpt);
+    NSLog(@"datecompt timezone : %@", [[tDateCmpt timeZone]name]);
+
+    
 }
 @end

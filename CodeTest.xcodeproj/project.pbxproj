@@ -15,7 +15,7 @@
 		8D1A002915D123E800B3917F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A002815D123E800B3917F /* AppDelegate.m */; };
 		8D1A002C15D123E800B3917F /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D1A002A15D123E800B3917F /* MainStoryboard.storyboard */; };
 		8D1A002F15D123E800B3917F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A002E15D123E800B3917F /* ViewController.m */; };
-		8D1A003715D1240100B3917F /* TimeZoneTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A003615D1240100B3917F /* TimeZoneTest.m */; };
+		8D1A003715D1240100B3917F /* DateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D1A003615D1240100B3917F /* DateTest.m */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -32,8 +32,8 @@
 		8D1A002B15D123E800B3917F /* en */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = en; path = en.lproj/MainStoryboard.storyboard; sourceTree = "<group>"; };
 		8D1A002D15D123E800B3917F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
 		8D1A002E15D123E800B3917F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
-		8D1A003515D1240100B3917F /* TimeZoneTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = TimeZoneTest.h; sourceTree = "<group>"; };
-		8D1A003615D1240100B3917F /* TimeZoneTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = TimeZoneTest.m; sourceTree = "<group>"; };
+		8D1A003515D1240100B3917F /* DateTest.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = DateTest.h; sourceTree = "<group>"; };
+		8D1A003615D1240100B3917F /* DateTest.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; path = DateTest.m; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -86,8 +86,8 @@
 				8D1A002D15D123E800B3917F /* ViewController.h */,
 				8D1A002E15D123E800B3917F /* ViewController.m */,
 				8D1A001F15D123E800B3917F /* Supporting Files */,
-				8D1A003515D1240100B3917F /* TimeZoneTest.h */,
-				8D1A003615D1240100B3917F /* TimeZoneTest.m */,
+				8D1A003515D1240100B3917F /* DateTest.h */,
+				8D1A003615D1240100B3917F /* DateTest.m */,
 			);
 			path = CodeTest;
 			sourceTree = "<group>";
@@ -168,7 +168,7 @@
 				8D1A002515D123E800B3917F /* main.m in Sources */,
 				8D1A002915D123E800B3917F /* AppDelegate.m in Sources */,
 				8D1A002F15D123E800B3917F /* ViewController.m in Sources */,
-				8D1A003715D1240100B3917F /* TimeZoneTest.m in Sources */,
+				8D1A003715D1240100B3917F /* DateTest.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -280,6 +280,7 @@
 				8D1A003415D123E800B3917F /* Release */,
 			);
 			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
 		};
 /* End XCConfigurationList section */
 	};

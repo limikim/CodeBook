@@ -8,6 +8,8 @@
 
 #import <Foundation/Foundation.h>
 
-@interface TimeZoneTest : NSObject
-+ (void)test;
+@interface DateTest : NSObject
++ (void)timeZone;
++ (void)dateCreate;
+
 @end
