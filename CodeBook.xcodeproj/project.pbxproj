@@ -18,7 +18,6 @@
 		8D34A42C15D2169B00AC565D /* CJSONSerializer.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D34A42515D2169B00AC565D /* CJSONSerializer.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
 		8D34A44915D2356A00AC565D /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 8D34A44815D2356A00AC565D /* SystemConfiguration.framework */; };
 		8D34A46515D33F4700AC565D /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D34A45115D33F4700AC565D /* AppDelegate.m */; };
-		8D34A46615D33F4700AC565D /* CodeBook-Info.plist in Resources */ = {isa = PBXBuildFile; fileRef = 8D34A45215D33F4700AC565D /* CodeBook-Info.plist */; };
 		8D34A46715D33F4700AC565D /* DateTest.m in Sources */ = {isa = PBXBuildFile; fileRef = 8D34A45615D33F4700AC565D /* DateTest.m */; };
 		8D34A46815D33F4700AC565D /* InfoPlist.strings in Resources */ = {isa = PBXBuildFile; fileRef = 8D34A45715D33F4700AC565D /* InfoPlist.strings */; };
 		8D34A46915D33F4700AC565D /* MainStoryboard.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8D34A45915D33F4700AC565D /* MainStoryboard.storyboard */; };
@@ -245,7 +244,6 @@
 			isa = PBXResourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				8D34A46615D33F4700AC565D /* CodeBook-Info.plist in Resources */,
 				8D34A46815D33F4700AC565D /* InfoPlist.strings in Resources */,
 				8D34A46915D33F4700AC565D /* MainStoryboard.storyboard in Resources */,
 			);
@@ -318,6 +316,7 @@
 				GCC_WARN_UNUSED_VARIABLE = YES;
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 			};
 			name = Debug;
 		};
@@ -337,6 +336,7 @@
 				IPHONEOS_DEPLOYMENT_TARGET = 5.1;
 				OTHER_CFLAGS = "-DNS_BLOCK_ASSERTIONS=1";
 				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
 				VALIDATE_PRODUCT = YES;
 			};
 			name = Release;
