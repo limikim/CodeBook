@@ -17,7 +17,10 @@
 {
     
     //[DateTest timeZone];
-    [DateTest dateCreate];
+    //[DateTest dateCreate];
+    //[DateTest dateFormaterWithTimezone];
+    //[DateTest calendar];
+    [DateTest dateComptForCurrentLocalTime];
     
     // Override point for customization after application launch.
     return YES;

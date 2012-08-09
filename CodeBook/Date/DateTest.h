@@ -9,7 +9,11 @@
 #import <Foundation/Foundation.h>
 
 @interface DateTest : NSObject
-+ (void)timeZone;
+
++ (void)dateComptForCurrentLocalTime;
+
 + (void)dateCreate;
++ (void)dateFormaterWithTimezone;
++ (void)calendar;
 
 @end
